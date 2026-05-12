@@ -21,7 +21,7 @@ public class Main {
         String smtpHost     = getEnv("SMTP_HOST", "smtp.gmail.com");
         int    smtpPort     = Integer.parseInt(getEnv("SMTP_PORT", "587"));
         String smtpUser     = getEnv("SMTP_USER", "tiktokgaara777@gmail.com");
-        String smtpPass     = getEnv("SMTP_PASS", "thfawcnmzokyvvys");
+        String smtpPass     = getEnv("SMTP_PASS", "Your password");
 
         SmtpConfig smtpConfig = new SmtpConfig(
                 smtpHost, smtpPort, smtpUser, smtpPass,
