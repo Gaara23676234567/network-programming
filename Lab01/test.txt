@@ -1,0 +1,4 @@
+Hello from the client!
+This is a test file for Individual Work #1.
+TCP/IP client-server application using WinSock2.
+The server will compute SHA-256 hash of this file and return it.
